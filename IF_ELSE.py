@@ -7,9 +7,11 @@
 # If  is even and greater than , print Not Weird
 # Input Format
 #
-# A single line containing a positive integer, .
+# A single line containing a positive integer, n.
 #
 # Constraints
+#
+#   1 <= n <= 100
 #
 # Output Format
 #
@@ -18,24 +20,30 @@
 # Sample Input 0
 #
 # 3
+#
 # Sample Output 0
 #
 # Weird
+#
 # Explanation 0
 #
+# n= 3
 #
-#  is odd and odd numbers are weird, so print Weird.
+# n  is odd and odd numbers are weird, so print Weird.
 #
 # Sample Input 1
 #
 # 24
+#
 # Sample Output 1
 #
 # Not Weird
+#
 # Explanation 1
 #
+# n = 24
 #
-#  and  is even, so it is not weird.
+#  n > 20 and  is even, so it is not weird.
 ########################################################################
 
 n = int(input())
